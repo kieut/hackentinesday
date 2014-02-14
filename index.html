@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+  The <html> tag tells the Browser - this is an HTML page
+  The <head> tag tells the Browser meta information about the page
+  The <title> tag twlls the Browser the name of this page, and it's the text that shows up in the tab
+  The <link rel="stylesheet" href="css/main.css"> tells the Browser where to find the CSS file
+  The <link href="http://fonts.googleapis.com/... tag tells the Browser to go look in Google's font library for our fonts
+-->
+<html>
+  <head>
+    <title>Hackentine's Day!</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Permanent+Marker|Nova+Mono|Monoton|Press+Start+2P|Bowlby+One+SC|Cedarville+Cursive" rel="stylesheet" type="text/css">
+
+  </head>
+  <!--
+    If you want to change the background of the entire page change "hearts-gray" to the stylename you want!
+  -->
+  <body class="love">
+    <!--
+      If you want to change the background of the card add a new style in addition to "hackentines-day-card-container"
+    Example:
+    <div class="hackentines-day-card-container hearts">
+    -->
+    <div class="hackentines-day-card-container seafoam-background">
+      <!--
+        This is a comment! It won't appear in the Browser.
+        There are two divs on this page both with the class name "card"
+        The first <div> is the front of the card
+        The second <div> is the back of the card
+
+        Note: Remember you can have more than one class name per tag!
+        Just remember to put a space in between class names
+
+        Example:
+        <div class="hackentines-day-card-container pink cursive center"> 
+
+        or:
+        <p class="red sans-serif center">Happy Hackentine's Day!</p>
+      -->
+      <div class="card pink-hearts" style="display: block;">
+		<h1 class="permanent-marker-font" style="text-align:center">
+        I corgily invite you
+        <img src="images/corgi-valentine.jpg" class="corgi"/>
+        to be my Valentine.</h1>
+      </div>
+      <div class="card hidden">
+        <p class="permanent-marker-font">Happy Hackentine's Day!</p>
+        <p class="animation"></p>
+        <p class="cursive-font">Love, Kieu! =^-^=w</p>
+      </div>
+    </div>
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/card-flip.js"></script>
+  </body>
+</html>

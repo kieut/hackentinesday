@@ -1,0 +1,144 @@
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+}
+
+.hidden {
+  display: none;
+}
+
+.hackentines-day-card-container {
+  width: 500px;
+  margin: 40px auto;
+  background-color: #E1E1E1;
+  padding: 50px 50px;
+  cursor: pointer;
+}
+
+.swatch {
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
+.hearts {
+  background: url("../images/hearts.jpg") repeat;
+}
+
+.hearts-gray {
+  background: url("../images/hearts-gray.jpg") repeat;
+}
+
+.love {
+  background: url("../images/love.png") repeat;
+}
+
+.pink-hearts {
+  background: url("../images/pink-hearts.jpg") repeat;
+}
+
+.pink-text {
+  color: #ff6c6c;
+}
+
+.pink-background {
+  background: #ff6c6c;
+}
+
+.blue-text {
+  color: #74a3fa;
+}
+
+.blue-background {
+  background: #74a3fa;
+}
+
+.teal-text {
+  color: #b2fffc;
+}
+
+.teal-background {
+  background: #b2fffc;
+}
+
+.seafoam-text {
+  color: #30eae1;
+}
+
+.seafoam-background {
+  background: #30eae1;
+}
+
+.salmon-text {
+  color: #d85e5e;
+}
+
+.salmon-background {
+  background: #d85e5e;
+}
+
+.orange-text {
+  color: #ffae6a;
+}
+
+.orange-background {
+  background: #ffae6a;
+}
+
+.light-pink-text {
+  color: #fdc8c8;
+}
+
+.light-pink-background {
+  background: #fdc8c8;
+}
+
+.black-text {
+  color: #000;
+}
+
+.black-background {
+  background: #000;
+}
+
+.white-text {
+  color: #FFF;
+}
+
+.white-background {
+  background: #FFF;
+}
+
+.animation {
+  background: url("../images/animation.gif") no-repeat;
+  width: 475px;
+  height: 377px;
+}
+
+.alfa-font {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.permanent-marker-font {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.nova-font {
+  font-family: 'Nova Mono', cursive;
+}
+
+.mono-font {
+  font-family: 'Monoton', cursive;
+}
+
+.start-font {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.bowlby-font {
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.cursive-font {
+  font-family: 'Cedarville Cursive', cursive;
+}
